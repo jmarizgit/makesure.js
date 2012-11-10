@@ -3,9 +3,9 @@
     Mariz Melo MM 2012
 */
 (function($){
-    $.fn.should = function(){
-        var $should = this.prototype;
-        var $should = {
+    $.fn.makesure = function(){
+        var $makesure = this.prototype;
+        var $makesure = {
             model : {
                 selector : $(this).selector
             },
